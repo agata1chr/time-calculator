@@ -1,4 +1,4 @@
-Założenia do projektu KALKULATOR:
+Założenia do projektu CALCULATOR:
 
 1. Brak możliwości wpisania wielokrotności znaku ":";
 2. Brak możliwości wpisania "+" i "-" jako pierwszego znaku;
@@ -6,3 +6,4 @@ Założenia do projektu KALKULATOR:
 4. Wartości dopuszczalne to X:Y, gdzie X- to godzina, a Y- to minuty. X jest liczbą całkowitą >= 0, natomiast Y jest liczbą >= 0 i <=59;
 5. Jeśli zadeklarowane zostanie tylko X automatycznie zostanie podporządkowana końcówka X:00;
 6. Brak możliwości mnożenia godzin przez siebie. Możliwe jest tylko mnożenie przez dodatnią liczbę całkowitą.
+
