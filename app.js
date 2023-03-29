@@ -18,13 +18,12 @@ let operation = undefined;
 const showTime = (hour, minut) => {
 	if (minut >= 60) {
 		minuty = parseInt(minut / 60);
-		console.log(minuty);
 		hour = hour + minuty;
 		minut = minut - minuty * 60;
 	}
-	if (minut < 0) {
-		console.log('godzina2');
+	if (minut < 0 || hour < 0) {
+		return;
 	}
-	console.log(hour + ' ' + minut);
+	console.log(hour + ' : ' + minut);
 };
-showTime(12, 285);
+showTime(-12, 285);
